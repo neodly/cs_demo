@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+pytest = "*"
+pytest-flask = "*"
+pytest-xdist = "*"
+black = "==19.3b0"
+factoryboy = "*"
+
+[packages]
+flask = "*"
+flask-mongoengine = "*"
+mongomock = "*"
+marshmallow-mongoengine = "*"
+marshmallow = "*"
+factory-boy = "*"
+
+[requires]
+python_version = "3.7"
